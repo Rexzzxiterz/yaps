@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tinggi Maksimal Usia Remaja</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-center">
+    <h1 class="text-3xl md:text-5xl font-bold">Tinggi Maksimal di Usia Remaja</h1>
+    <p class="mt-2 text-lg">Fakta, Tips, dan Jadwal Khusus Usia 15–18 Tahun</p>
+  </header>  <section class="p-6 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4 text-blue-400">📌 Fakta Pertumbuhan Tinggi Badan</h2>
+    <ul class="list-disc ml-5 space-y-2">
+      <li>Usia 15–18 adalah masa puncak pertumbuhan tinggi.</li>
+      <li>Hormon pertumbuhan aktif saat tidur nyenyak (jam 22.00–02.00).</li>
+      <li>Faktor utama: genetik, tidur, nutrisi, dan olahraga.</li>
+      <li>Begadang setiap hari bisa menghambat tinggi badan.</li>
+    </ul>
+  </section>  <section class="bg-gray-800 p-6 mt-6">
+    <h2 class="text-2xl font-bold mb-4 text-green-400">📅 Jadwal Harian Penambah Tinggi</h2>
+    <ul class="space-y-2 list-decimal ml-5">
+      <li>06.00 - Bangun & stretching ringan</li>
+      <li>06.15 - Sarapan sehat (telur, nasi, susu)</li>
+      <li>07.00 - Sekolah/kerja ringan</li>
+      <li>13.00 - Tidur siang 1–2 jam</li>
+      <li>16.00 - Olahraga (lompat tali, basket, renang)</li>
+      <li>19.00 - Makan malam bergizi</li>
+      <li>21.00 - Persiapan tidur (hindari HP & kopi)</li>
+      <li>22.00 - Tidur nyenyak</li>
+    </ul>
+  </section>  <section class="p-6 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-yellow-400 mb-4">💡 Tips Jitu Menambah Tinggi</h2>
+    <ul class="list-disc ml-5 space-y-2">
+      <li>Jangan begadang tiap hari (tidur ideal jam 22.00).</li>
+      <li>Olahraga minimal 4x seminggu.</li>
+      <li>Minum susu dan makan protein tinggi (telur, tahu, ikan).</li>
+      <li>Stretching tiap pagi & sore.</li>
+      <li>Postur tubuh saat duduk/angkat galon harus tegak.</li>
+    </ul>
+  </section>  <section class="bg-gray-800 p-6 mt-6">
+    <h2 class="text-2xl font-bold text-pink-400 mb-4">🍱 Makanan Murah Penambah Tinggi</h2>
+    <ul class="grid grid-cols-2 gap-4 text-sm">
+      <li>✅ Telur rebus / dadar</li>
+      <li>✅ Tempe & tahu</li>
+      <li>✅ Ikan pindang / sarden</li>
+      <li>✅ Susu UHT / kental manis</li>
+      <li>✅ Pisang, pepaya, semangka</li>
+      <li>✅ Daun singkong, bayam</li>
+    </ul>
+  </section>  <section class="p-6 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-red-400 mb-4">❓ FAQ: Pertanyaan Umum</h2>
+    <div class="space-y-4">
+      <div>
+        <strong>❓ Apakah begadang bikin pendek?</strong>
+        <p>✅ Ya, karena hormon pertumbuhan aktif saat tidur malam.</p>
+      </div>
+      <div>
+        <strong>❓ Apakah masih bisa tinggi di umur 15?</strong>
+        <p>✅ Masih! Justru ini masa paling penting!</p>
+      </div>
+    </div>
+  </section>  <section class="p-6 bg-gray-900 border-t border-gray-700 mt-10">
+    <h2 class="text-xl text-white font-bold mb-2">🤖 Tanya AI (ChatGPT)</h2>
+    <p class="text-gray-400 text-sm mb-3">Tanyakan apa pun soal tinggi badan, nutrisi, atau olahraga!</p>
+    <div class="flex gap-2">
+      <input id="searchQuery" type="text" placeholder="Contoh: makanan penghambat tinggi badan"
+        class="flex-1 p-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <button onclick="askAI()" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-bold">
+        Tanya AI
+      </button>
+    </div>
+  </section>  <section class="p-6 bg-gray-950 mt-10 border-t border-gray-700">
+    <h2 class="text-xl font-bold mb-2 text-white">💬 Tanya Chatbot Langsung di Sini</h2>
+    <p class="text-sm text-gray-400 mb-4">Ketik pertanyaanmu seputar tinggi badan, tidur, atau nutrisi langsung di bawah ini.</p>
+    <iframe src="https://poe.com/embed/ChatGPT?theme=dark"
+            width="100%" height="500"
+            style="border:1px solid #444; border-radius:10px;"
+            referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>  <footer class="bg-black p-6 text-center text-sm text-gray-400 mt-10">
+    <p>"Selama kamu disiplin dan mau berusaha, tinggi badan bisa dikejar."</p>
+    <p class="mt-2">Website oleh Remaja yang Ingin Tinggi 💪</p>
+  </footer>  <script>
+    function askAI() {
+      const query = document.getElementById('searchQuery').value;
+      if (query.trim() === '') return;
+      const encoded = encodeURIComponent(query);
+      window.open(`https://chat.openai.com/chat?q=${encoded}`, '_blank');
+    }
+  </script></body>
+</html>
